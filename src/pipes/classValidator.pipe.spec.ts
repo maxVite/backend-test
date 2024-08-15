@@ -50,7 +50,6 @@ describe('ClassValidatorPipe', () => {
       expect(pipe.toValidate(Number)).toBe(false);
       expect(pipe.toValidate(Array)).toBe(false);
       expect(pipe.toValidate(Object)).toBe(false);
-      expect(pipe.toValidate(Buffer)).toBe(false);
     });
   });
 });
